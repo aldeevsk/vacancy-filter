@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="container">my header</div>
+        </div>
+    </header>
+    <main>
+        <section id="vacancys">
+            <div class="container">
+                <h2>Вакансии</h2>
+                <div class="filter vacancys-filter">
+                    <button class="filter-button active" data-region="all">Все области</button>
+                    <button class="filter-button" data-region="Бишкек">Бишкек</button>
+                    <button class="filter-button" data-region="Чуй">Чуй</button>
+                    <button class="filter-button" data-region="Иссык-Куль">Иссык-Куль</button>
+                    <button class="filter-button" data-region="Нарын">Нарын</button>
+                    <button class="filter-button" data-region="Ош">Ош</button>
+                    <button class="filter-button" data-region="Жалал-Абад">Жалал-Абад</button>
+                </div>
+
+                <div class="vacancys-content"></div>
+                <button class="btn" style="padding: 10px; background: rgb(146, 93, 93); cursor: pointer;" data-toggle="modal" data-mark="0">show modal</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="container">my footer</div>
+            
+        </div>
+    </footer>
+
+    <!-- ====================== Modal ==================================== -->
+    <!-- <div class="modal">
+        <div class="modal-content">
+            <header class="modal-header">
+                modal header
+            </header>
+            <article class="modal-body">
+                modal text
+            </article>
+            <footer class="modal-footer">
+                modal footer
+            </footer>
+        </div>
+    </div> -->
+
+    <!-- ====================== Modal End ================================= -->
+    <script src="classModal.js"></script>
+    <script src="filter2.js"></script>
+</body>
+</html>
